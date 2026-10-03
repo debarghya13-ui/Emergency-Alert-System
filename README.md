@@ -1,16 +1,47 @@
-# React + Vite
+# Last-Mile Emergency Alert System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simulation-based emergency alert system developed for **IGNITHON 2.0** to make emergency warnings clear, accessible, multilingual, and actionable.
 
-Currently, two official plugins are available:
+## Problem Statement
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Emergency warnings often fail to reach people in a clear, accessible, and understandable form. Language barriers, network limitations, and lack of last-mile connectivity can delay critical information. The goal is to ensure official emergency alerts reach citizens quickly through reliable and accessible communication channels. The system should also support acknowledgement and assistance requests from citizens.
 
-## React Compiler
+## Workflow
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Official Government Alert
+- Authentication and Verification
+- Alert Processing
+- Location and Region Identification
+- Multilingual Processing
+- Accessible Audio Alert
+- Simulated Last-Mile Delivery
+- Citizen Receives Alert
+- Delivery and Read Tracking
+- Acknowledgement
+- Assistance Request
+- Reminder and Alert Updates
 
-## Expanding the ESLint configuration
+## Key Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Government source verification
+- Alert severity classification
+- English, Hindi and regional language support
+- Text and audio alerts
+- Simulated Cell Broadcast, Internet and Wired Relay
+- Delivery and read-status tracking
+- No Issue / Need Help acknowledgement
+- 30-minute reminder simulation
+- Network failure simulation
+- Alert update, cancellation and All Clear
+- Multiple emergency edge cases
+
+## Tech Stack
+
+- **Backend:** C++
+- **Frontend:** React + Vite
+- **Communication:** REST API
+- **Browser:** Google Chrome
+
+## Disclaimer
+
+This project is a simulation/prototype and does not connect to real government, telecom, police, or emergency infrastructure.
